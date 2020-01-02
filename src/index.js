@@ -12,6 +12,6 @@ ReactDOM.render(<App />, document.getElementById("root"));
 serviceWorker.unregister();
 
 //element eksistere i Virtual DOM
-const element = <h1> Heja dig</h1>;
+const element = <h1> React startup</h1>;
 //ved rendering eksistere det i DOM
 ReactDOM.render(element, document.getElementById("root"));
